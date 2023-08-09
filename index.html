@@ -4,74 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Bowling</title>
+    <title>Bootstrap Clone</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-primary text-light">
+<body class="backgroundColor text-light">
     <header class="container-fluid text-light">
         <div class="row py-3">
-            <div class="col-1 text-center"> logo </div>
-            <div class="col-9"></div>
-            <div class="col-1 text-center">featured</div>
-            <div class="col-1 text-center">start now</div>
+            <div class="col-1 text-center logoFont">109leadr</div>
+            <div class="col-4 col-md-7 col-lg-9"></div>
+            <div class="col-3 col-md-2 col-lg-1 text-center fw-bold">
+                FEATURED
+            </div>
+            <div class="col-4 col-md-2 col-lg-1 text-center fw-bold">
+                START NOW
+            </div>
         </div>
     </header>
     <main class="container-fluid mt-5">
         <section class="row align-items-center">
-            <div class="col-6">
-                <h1 class="text-center">Your jobs, our news.</h1>
+            <div class="col-12 col-md-6">
+                <h1 class="text-center pb-3">Your jobs, <span class="fw-bold">our news.</span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione rem aspernatur, eum error
                     perferendis, earum obcaecati repudiandae reiciendis vitae numquam voluptatem excepturi enim odio
                     quasi quos possimus totam sed harum?</p>
-                <div class="row">
+                <div class="row mt-5">
                     <div class="col-6 text-center">
-                        <button>
-                            download for apple
+                        <button class="btn btn-dark">
+                            <i class="mdi mdi-apple"></i>Download for Apple
                         </button>
                     </div>
                     <div class="col-6 text-center">
-                        <button>
-                            download for android
+                        <button class="btn btn-dark">
+                            <i class="mdi mdi-android"></i>download for android
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-6 text-center">
+            <div class="col-12 col-md-6 text-center">
                 <img class="phone img-fluid" src="images/phone.png" alt="phone">
             </div>
         </section>
         <section class="row justify-content-center bg-white text-dark pt-4">
-            <div class="col-3">
+            <div class="col-12 col-md-3 text-center">
                 <h2>Features</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quae vitae culpa?</p>
             </div>
         </section>
-        <section class="row bg-white text-dark justify-content-between p-5">
-            <div class="col-3">
-                logo
-                <h5>hello</h5>
+        <section class="row bg-white text-dark justify-content-between p-3">
+            <div class="col-12 col-md-3 text-center">
+                <i class="mdi mdi-briefcase"></i>
+                <h5>Your Jobs</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, eum!</p>
             </div>
-            <div class="col-3">
-                logo
+            <div class="col-12 col-md-3 text-center">
+                <i class="mdi mdi-book"></i>
                 <h5>reading</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, doloremque.</p>
             </div>
-            <div class="col-3">
-                logo
+            <div class="col-12 col-md-3 text-center">
+                <i class="mdi mdi-newspaper"></i>
                 <h5>news</h5>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, maxime.</p>
             </div>
         </section>
         <section class="row align-items-center">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <img src="images/phone-video.PNG" alt="a picture of a video of a phone" class="img-fluid">
             </div>
-            <div class="col-6 p-4">
-                <h2 class="pb-4">
+            <div class="col-12 col-md-6 p-md-4">
+                <h2 class="pb-md-4">
                     Lorem ipsum dolor sit amet.
                 </h2>
                 <p class="pt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolorum, accusamus
@@ -84,16 +89,22 @@
         </section>
     </main>
     <footer class="container-fluid bg-dark">
-        <section class="row justify-content-evenly">
-            <div class="col-3">
-                <h2>logo</h2>
+        <section class="row justify-content-between pt-5">
+            <div class="col-12 col-md-3 ms-lg-5 me-lg-4 text-center text-md-start">
+                <h2 class="logoFont">109leadr</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quisquam.</p>
             </div>
-            <div class="col-2">
-                logo logo
+            <div class="col-12 col-md-2 text-center text-md-start">
+                <h2>
+                    <i class="mdi mdi-apple"></i>
+                    <i class="mdi mdi-android"></i>
+                </h2>
             </div>
-            <div class="col-3">
-                <h2>logo logo</h2>
+            <div class="col-12 col-md-2 text-center text-md-center">
+                <h2>
+                    <i class="mdi mdi-facebook"></i>
+                    <i class="mdi mdi-twitter"></i>
+                </h2>
                 <p>Redazione - Credits</p>
             </div>
         </section>

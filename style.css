@@ -1,3 +1,13 @@
 .phone {
     height: 50vh;
 }
+
+.logoFont {
+    font-weight: 200;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.backgroundColor {
+    background-color: rgb(77, 157, 184);
+}
